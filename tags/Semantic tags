@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>This is my header</header><hr>
+    <main>
+        It is main tag which include many tags.
+        <section>
+            It is Section tag. Here we put that things which is divided into sections.
+        </section>
+        <article>
+            It is Article tag. 
+            When we want to write a big paragraph then we used article tag.
+        </article>
+        <aside>
+            when we want to recommended something.
+        </aside>
+    </main>
+    <hr>
+    <footer>
+        It is a footer tag.
+    </footer>
+</body>
+</html>
