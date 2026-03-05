@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >Contact Me</h1>
+    <form action="/submit.php" method="post">
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="Name" required> <br>
+        <label for="mail"></label>
+        <input type="text" id="mail" placeholder="Email Address"><br>
+        <label for="no"></label>
+        <input type="tel" id="no" placeholder="Mobile No." required minlength="10" maxlength="10"><br>
+        <span>Gender:</span>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female" >
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other" >
+        <br>
+        <label for="State">State:</label>
+        <select name="State" id="State">
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Gujarat">Gujarat</option>
+        </select>
+        <br>
+        <textarea name="story" id="mess" rows="5" cols="21" placeholder="Write about yourself"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
